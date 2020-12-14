@@ -1,6 +1,6 @@
 <?php
 
-namespace Inchoo\Helloworld\Controller\Sub1_sub2;
+namespace Inchoo\Helloworld\Controller\World;
 
 class World extends \Magento\Framework\App\Action\Action
 {
