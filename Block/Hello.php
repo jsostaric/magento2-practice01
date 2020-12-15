@@ -3,7 +3,6 @@
 namespace Inchoo\Sample01\Block;
 
 use Magento\Framework\App\Config\ScopeConfigInterface;
-use Magento\Framework\App\ScopeInterface;
 use Magento\Framework\View\Element\Template;
 
 class Hello extends \Magento\Framework\View\Element\Template

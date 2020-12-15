@@ -28,8 +28,6 @@ class Index extends \Magento\Framework\App\Action\Action
     public function execute()
     {
         $resultPage = $this->resultPageFactory->create();
-        $this->resultFactory->create();
-//        $resultPage->getConfig()->getTitle()->set(__('Hello World'));
 
         return $resultPage;
     }
