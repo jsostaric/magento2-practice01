@@ -1,8 +1,7 @@
 <?php
 /**
- * @var \Inchoo\Helloworld\Block\Hello $block
+ * @var \Inchoo\Sample01\Block\Hello $block
  */
 ?>
-<h1><?= $block->isVisible() ? $block->getHelloWorld() : ''; ?></h1>
-
+<?= $block->isVisible() ?? '<h1>' . $block->getHelloWorld(). '</h1>' ?>
 <p>Lorem ipsum sit amet ..</p>

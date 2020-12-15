@@ -1,8 +1,8 @@
 <?php
 
-namespace Inchoo\Sample01\Controller\Index;
+namespace Inchoo\Sample01\Controller\Sub1\Sub2;
 
-class Index extends \Magento\Framework\App\Action\Action
+class World extends \Magento\Framework\App\Action\Action
 {
     /**
      * @var \Magento\Framework\View\Result\PageFactory
@@ -28,8 +28,7 @@ class Index extends \Magento\Framework\App\Action\Action
     public function execute()
     {
         $resultPage = $this->resultPageFactory->create();
-        $this->resultFactory->create();
-//        $resultPage->getConfig()->getTitle()->set(__('Hello World'));
+        //$resultPage->getConfig()->getTitle()->set(__('Hello World'));
 
         return $resultPage;
     }
