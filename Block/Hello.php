@@ -15,10 +15,14 @@ class Hello extends \Magento\Framework\View\Element\Template
         parent::__construct($context, $data);
     }
 
+    /**
+     * @return bool
+     */
     public function isVisible(): bool
     {
         return $this->scopeConfig->getValue('helloworld/general/enable');
     }
+    
     /**
      * @return string
      */
